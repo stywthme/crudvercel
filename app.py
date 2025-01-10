@@ -5,11 +5,11 @@ from mysql import connector
 app = Flask(__name__)
 
 db = connector.connect (
-    host = '1h3q4.h.filess.io', 
-    user    = 'dbflaskweb_exerciseis',
+    host = '3x0-r.h.filess.io', 
+    user    = 'dbflask_somebodygo',
     port    = '3305',
-    password= '333e53cfaaebb18f1aff3e7f37be328e3ce2ea6a',
-    database= 'dbflaskweb_exerciseis'
+    password= '935f862b2b32f00a34d62467f2959b697d320001',
+    database= 'dbflask_somebodygo'
 )
 
 if db.is_connected():
